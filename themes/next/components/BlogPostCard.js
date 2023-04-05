@@ -18,7 +18,7 @@ const BlogPostCard = ({ post, showSummary }) => {
         key={post.id}
         className="flex flex-col-reverse justify-between duration-300"
       >
-        <div className="lg:p-8 p-4 flex flex-col w-full">
+        <div className="lg:p-6 p-4 flex flex-col w-full">
           <Link
             href={`${BLOG.SUB_PATH}/${post.slug}`}
             passHref
@@ -68,7 +68,7 @@ const BlogPostCard = ({ post, showSummary }) => {
           </div>
 
           {(!showPreview || showSummary) && !post.results && (
-            <p className="mt-4 mb-24 text-gray-700 dark:text-gray-300 text-sm font-light leading-7">
+            <p className="mt-4 mb-4 text-gray-700 dark:text-gray-300 text-sm font-light leading-7">
               {post.summary}
             </p>
           )}
