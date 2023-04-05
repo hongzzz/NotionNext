@@ -58,11 +58,10 @@ export default function ArticleDetail(props) {
                                     href={`/archive#${post?.date?.start_date?.substr(0, 7)}`}
                                     passHref
                                     legacyBehavior>
-                                    <div className="pl-1 mr-2 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed">
+                                    <div className="pl-1 mr-4 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed">
                                         <i className='far fa-calendar mr-1' /> {date}
                                     </div>
                                 </Link>
-                                <span className='mr-2'> | <i className='far fa-calendar-check mr-2' />{post.lastEditedTime} </span>
 
                                 <div className="hidden busuanzi_container_page_pv font-light mr-2">
                                     <i className='mr-1 fas fa-eye' />
