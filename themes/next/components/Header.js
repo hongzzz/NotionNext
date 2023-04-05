@@ -100,7 +100,7 @@ export default function Header(props) {
       }}
     >
       <div className="absolute flex h-full items-center lg:-mt-14 justify-center w-full text-2xl md:text-4xl text-white">
-        <div id='typed' className='flex text-center font-serif' />
+        <div id='typed' className='flex text-center ' />
       </div>
       <div
         onClick={() => {
